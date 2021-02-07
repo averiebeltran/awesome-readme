@@ -86,7 +86,7 @@ async function init() {
         console.log("-----------------------------------------");
         console.log("Writing README file...");
         console.log("-----------------------------------------");
-        await writeFileASync("README.md", generateMarkdown);
+        writeFileASync("README.md", generateMarkdown);
         console.log("Success! README created");
         console.log("-----------------------------------------");
     } catch(error) {
