@@ -1,11 +1,9 @@
 // TODO: Include packages needed for this application
-
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const generateReadme = require("./util/generate/Readme");
-const generateMarkdown = require("./utils/generateReadme");
-// const writeFileASync = util.promisify(fs.writeFile);
+const generateReadme = require("./utils/generateReadme");
+const writeFileASync = util.promisify(fs.writeFile);
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -66,13 +64,16 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    writeFileASync(fileName, data);
+}
 
 // TODO: Create a function to initialize app
 async function init() {
     try {
         const response = await inquirer.prompt(questions);
-        const generateReadme = generateMarkdown(response);
+        const generateMarkdown = generateReadme(response);
+        writeToFile("README.md", generateMarkdown);
     } catch(error) {
         console.log(error);
     }
