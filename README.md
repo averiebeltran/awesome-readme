@@ -1,7 +1,7 @@
 
-		<h1 align="center">Hi</h1>
+		<h1 align="center">Yes</h1>
 
-		![badge](https://img.shields.io/badge/license-Academic-brightgreen)
+		![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 		## Table of Contents
 		- [Description] (#description)
@@ -13,13 +13,13 @@
 		- [Contact] (#contact)
 
 		## Description
-		a helpful 
+		Readme
 
 		## Installation
-		yes
+		Yellow
 
 		## Usage
-		no
+		banananana
 
 		## Contributing
 		undefined
@@ -28,12 +28,12 @@
 		undefined
 
 		## License
-		![badge](https://img.shields.io/badge/license-Academic-brightgreen)
+		![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 		<br />
-		This application by the Academic license.
+		This application by the MIT license.
 
 		## Contact
-		:octocat: Find me on GitHub: [averiebeltran](https://github.com/averiebeltran)
+		:octocat: Find me on GitHub: [aveie](https://github.com/aveie)
 		<br />
 		Email me with questions: averie@yahoo.com
 	

@@ -66,13 +66,24 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     writeFileASync(fileName, data);
+    console.log("Success! README created");
+    console.log("-----------------------------------------");
 }
 
 // TODO: Create a function to initialize app
 async function init() {
     try {
         const response = await inquirer.prompt(questions);
+        console.log("-----------------------------------------");
+        console.log("Responses: ", response);
+        console.log("-----------------------------------------");
+        console.log("Generating markdown...");
+        console.log("-----------------------------------------");
         const generateMarkdown = generateReadme(response);
+        console.log(generateMarkdown);
+        console.log("-----------------------------------------");
+        console.log("Writing README file...");
+        console.log("-----------------------------------------");
         writeToFile("README.md", generateMarkdown);
     } catch(error) {
         console.log(error);
