@@ -3,7 +3,7 @@ const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
 const generateReadme = require("./utils/generateReadme");
-const writeFileASync = util.promisify(fs.writeFile);
+const writeFileASync = util.promisify(writeToFile);
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -65,9 +65,11 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    writeFileASync(fileName, data);
-    console.log("Success! README created");
-    console.log("-----------------------------------------");
+    fs.writeFile(fileName, data, error => {
+        if (error) {
+            console.log(error);
+        }
+    });
 }
 
 // TODO: Create a function to initialize app
@@ -84,7 +86,9 @@ async function init() {
         console.log("-----------------------------------------");
         console.log("Writing README file...");
         console.log("-----------------------------------------");
-        writeToFile("README.md", generateMarkdown);
+        await writeFileASync("README.md", generateMarkdown);
+        console.log("Success! README created");
+        console.log("-----------------------------------------");
     } catch(error) {
         console.log(error);
     }
