@@ -1,7 +1,10 @@
 
-		<h1 align="center">Yes</h1>
+		<h1 align="center">ReadME</h1>
 
-		![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+		![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/averiebeltran/awesome-readme?style=flat&logo=appveyor)
+		![Badge for GitHub last commit](https://img.shields.io/github/last-commit/averiebeltran/awesome-readme?style=flat&logo=appveyor)
+
+		![badge](https://img.shields.io/badge/license-Academic-brightgreen)
 
 		## Table of Contents
 		- [Description] (#description)
@@ -13,13 +16,13 @@
 		- [Contact] (#contact)
 
 		## Description
-		Readme
+		ybenfiw
 
 		## Installation
-		Yellow
+		nfewng
 
 		## Usage
-		banananana
+		nugeon
 
 		## Contributing
 		undefined
@@ -28,12 +31,12 @@
 		undefined
 
 		## License
-		![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+		![badge](https://img.shields.io/badge/license-Academic-brightgreen)
 		<br />
-		This application by the MIT license.
+		This application by the Academic license.
 
 		## Contact
-		:octocat: Find me on GitHub: [aveie](https://github.com/aveie)
+		:octocat: Find me on GitHub: [aveire](https://github.com/aveire)
 		<br />
-		Email me with questions: averie@yahoo.com
+		Email me with questions: averei@yahoo.com
 	
