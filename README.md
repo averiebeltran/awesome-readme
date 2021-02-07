@@ -1,10 +1,10 @@
 
-		<h1 align="center">ReadME</h1>
+		<h1 align="center">tgr</h1>
 
 		![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/averiebeltran/awesome-readme?style=flat&logo=appveyor)
 		![Badge for GitHub last commit](https://img.shields.io/github/last-commit/averiebeltran/awesome-readme?style=flat&logo=appveyor)
 
-		![badge](https://img.shields.io/badge/license-Academic-brightgreen)
+		![badge](https://img.shields.io/badge/license-Apache-brightgreen)
 
 		## Table of Contents
 		- [Description] (#description)
@@ -16,13 +16,13 @@
 		- [Contact] (#contact)
 
 		## Description
-		ybenfiw
+		greag
 
 		## Installation
-		nfewng
+		greg
 
 		## Usage
-		nugeon
+		reg
 
 		## Contributing
 		undefined
@@ -31,12 +31,12 @@
 		undefined
 
 		## License
-		![badge](https://img.shields.io/badge/license-Academic-brightgreen)
+		![badge](https://img.shields.io/badge/license-Apache-brightgreen)
 		<br />
-		This application by the Academic license.
+		This application by the Apache license.
 
 		## Contact
-		:octocat: Find me on GitHub: [aveire](https://github.com/aveire)
+		:octocat: Find me on GitHub: [av eire](https://github.com/av eire)
 		<br />
-		Email me with questions: averei@yahoo.com
+		Email me with questions: averiebrg
 	
