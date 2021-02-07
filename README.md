@@ -1,5 +1,5 @@
 
-<h1 align="center">Awesome ReadME</h1>
+<h1 align="center">Awesome ReadMe</h1>
 
 ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/averiebeltran/awesome-readme?style=flat&logo=appveyor)
 ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/averiebeltran/awesome-readme?style=flat&logo=appveyor)
@@ -17,9 +17,11 @@
 
 ## Description
 A command-line application that dynamically generates a professional high quality Readme for a project.
+<br />
+A video displaying how to use the application can be downloaded [here](../media/ReadMe-Video.mov)
 
 ## Installation
-`npm init` `npm install inquirer`
+`npm init` <br /> `npm install inquirer`
 
 ## Usage
 Run the following command at the root of your project & answer the questions when propmpted. <br />`node index.js`
@@ -38,5 +40,5 @@ This application by the MIT license.
 ## Contact
 :octocat: Find me on GitHub: [averiebeltran](https://github.com/averiebeltran)
 <br />
-Email me with questions: averiebeltran@yahoo.com
+Email me with questions: averie@yahoo.com
 	
