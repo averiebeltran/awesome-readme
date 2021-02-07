@@ -19,6 +19,8 @@ function generateMarkdown(data) {
 
 ## Description
 ${data.description}
+<br />
+A video displaying how to use the application can be downloaded [here](../media/ReadMe-Video.mov)
 
 ## Installation
 ${data.installation}
