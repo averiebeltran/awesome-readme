@@ -27,7 +27,7 @@ ${data.installation}
 ${data.usage}
 
 ## Contributing
-${data.contibuting}
+${data.contibution}
 
 ## Tests
 ${data.tests}
